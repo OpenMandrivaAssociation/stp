@@ -11,6 +11,7 @@ Group:		Development/Other
 # find stp -name .svn | xargs rm -rf
 # tar jcf stp.tar.bz2 stp
 Source0:	stp.tar.bz2
+URL:		https://sites.google.com/site/stpfastprover/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	bison
