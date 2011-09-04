@@ -18,6 +18,7 @@ BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	subversion
 BuildRequires:	valgrind
+BuildRequires:	zlib-devel
 
 #-----------------------------------------------------------------------
 %description
