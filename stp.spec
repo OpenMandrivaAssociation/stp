@@ -16,6 +16,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	bison
 BuildRequires:	flex
+BuildRequires:	subversion
 BuildRequires:	valgrind
 
 #-----------------------------------------------------------------------
