@@ -1,0 +1,12 @@
+diff -urN stp/src/main/Makefile stp-patched/src/main/Makefile
+--- stp/src/main/Makefile	2011-09-04 11:05:05.000000000 +1100
++++ stp-patched/src/main/Makefile	2014-04-08 21:35:11.563146430 +1100
+@@ -17,7 +17,7 @@
+ 
+ # Use svnversion to output the global revision number.
+ versionString.stamp: FORCE
+-	@SVNVERSION=`svnversion $(TOP)`; \
++	@SVNVERSION="__PACKAGE_VERSION__"; \
+ 	if [ x`cat $@ 2> /dev/null` != x$$SVNVERSION ]; then \
+ 		echo $$SVNVERSION > $@; \
+ 	fi
