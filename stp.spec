@@ -4,7 +4,7 @@
 Summary:	Constraint solver used by program analysis tools
 Name:		stp
 Version:	0.1392
-Release:	2
+Release:	3
 License:	MIT and BSD
 Group:		Development/Other
 Url:		https://sites.google.com/site/stpfastprover/
