@@ -14,6 +14,7 @@ Url:		https://sites.google.com/site/stpfastprover/
 # tar jcf stp.tar.bz2 stp
 Source0:	stp.tar.bz2
 Patch0:		stp-version.patch
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	subversion
